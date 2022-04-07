@@ -78,11 +78,6 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
 
-        elif 'open code' in query:
-            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codePath)
-  
-
         elif 'father name' in query:
             say = "My father's name is Gopal Chourasia and he is an owner of Shanti Bhawan"
             speak(say)
